@@ -52,7 +52,7 @@ validationset = {
 	label = fullset['dataoutput'][{{10233,20232}}]
 }
    ```
-   Here 'database' is an user defined function in file [stock_function.lua] which helps us to convert [Dataset.txt] to convert into a Double Tensor so that we can apply arithmetic operations on it.
+   Here 'database' is an user defined function in file [stock_function.lua] which helps us to convert [Dataset.txt] into a Double Tensor so that we can apply arithmetic operations on it.
    
    ##### Description of Model
    Our model contains two hidden layer.One has 70 neurons and other one has 50 neurons.
@@ -83,17 +83,17 @@ The training set has been trained by "**step**" function.The code for it is simp
 After iterating the same datasets for **200** times or (200 epochs) we have saved the final parameters of model in other file **model.net**. This helps us to use these parameters any other time without iterating over 200 times. This file has been used in files like [final_output.lua] and [graph_output.lua].
 
 
-![ScreenShot](https://github.com/MLcoderss/ML-project/raw/master/Screenshot%201.png)
+![ScreenShot](https://github.com/piushbansal/ML-project/blob/master/Screenshot%201.png)
 
 #### Description of **[final_output.lua]** and **[graph_output.lua]**
   The **final_ouput.lua** , as the name itself says, gives us the closing stock value when given value of opening , highest , lowest and overall volume of a stock of a day as an input.
   
-  ![ScreenShot](https://github.com/MLcoderss/ML-project/raw/master/Screenshot%202.png)
+  ![ScreenShot](https://github.com/piushbansal/ML-project/raw/master/Screenshot%202.png)
    
    
   The **graph_ouput.lua** gives us the graph between the **predicted closing value** and **actual closing value** .It also save the graph in home directory as a .png file.
   
-  ![ScreenShot](https://github.com/MLcoderss/ML-project/raw/master/Screenshot%203.png)
+  ![ScreenShot](https://github.com/piushbansal/ML-project/blob/master/Screenshot%203.png)
 
 ### Contributors
 Team Name = [ML-Coderss](http://mlcoderss.github.io/ML-project/)
